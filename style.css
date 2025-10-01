@@ -85,12 +85,16 @@
 }
 
 .item.active img.fruit {
-    animation: toActive .5s ease-in-out 1 forwards;
+    animation: toActive .5s ease-in-out  1 forwards;
 }
 
 
 .item.active .title {
     animation: toActive .5s ease-in-out 1 forwards;
+}
+
+.item.active .soude {
+    animation: toActive .5s ease-in-out 1 forwards
 }
 
 .item .fruit,
@@ -99,10 +103,6 @@
     height: auto;
 }
 
-
-.item.active .soude {
-    animation: soudeActive .5s ease-in-out 1 forwards;
-}
 
 @media screen and (max-width: 768px) {
     .item .title {
@@ -148,15 +148,5 @@
 @media screen and (max-width: 480px) {
     body {
         font-size: 0.9rem;
-    }
-}
-@keyframes soudeActive {
-    from {
-        transform: translate(-50%, 100%);
-        opacity: 0;
-    }
-    to {
-        transform: translate(-50%, -50%);
-        opacity: 1;
     }
 }
