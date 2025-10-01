@@ -1,39 +1,42 @@
-🍹 Soude – Fruit-Themed Soda Showcase
-Soude is a vibrant and animated web experience that showcases fruit-inspired soda flavors using layered visuals and smooth transitions. Designed with HTML, CSS, and JavaScript, this project blends creative design with interactive navigation to highlight three unique flavors: Strawberry, Avocado, and Orange.
+# 🍹 Soude – Fruit-Themed Soda Showcase
 
-🚀 Features
-🎨 Fullscreen animated sections for each fruit
+**Soude** is a vibrant and animated web experience that showcases fruit-inspired soda flavors using layered visuals and smooth transitions. Designed with HTML, CSS, and JavaScript, this project blends creative design with interactive navigation to highlight three unique flavors: **Strawberry**, **Avocado**, and **Orange**.
 
-🍓 Layered image composition with foreground blur effects
+---
 
-🧭 Navigation arrows for seamless slide transitions
+## 🚀 Features
 
-📱 Responsive layout using modern CSS units (dvw, dvh)
+- 🎨 Fullscreen animated sections for each fruit
+- 🍓 Layered image composition with foreground blur effects
+- 🧭 Navigation arrows for seamless slide transitions
+- 📱 Responsive layout using modern CSS units (`dvw`, `dvh`)
+- ⚡ Lazy loading for optimized performance
+- 🧪 Clean, modular CSS with custom properties
 
-⚡ Lazy loading for optimized performance
+---
 
-🧪 Clean, modular CSS with custom properties
+## 📸 Visuals
 
-📸 Visuals
 Each section includes:
+- A bold title centered on the screen
+- A blurred fruit image in the foreground
+- A stylized soda bottle image layered behind
 
-A bold title centered on the screen
+---
 
-A blurred fruit image in the foreground
+## 🧰 Technologies Used
 
-A stylized soda bottle image layered behind
+- **HTML5**
+- **CSS3** (custom properties, animations)
+- **JavaScript** (navigation logic)
 
-🧰 Technologies Used
-HTML5
+---
 
-CSS3 (with custom properties and animations)
+## 📦 Setup
 
-JavaScript (for navigation logic)
+Clone the repository and open `index.html` in your browser:
 
-📦 Setup
-Clone the repository and open index.html in your browser:
-
-bash
+```bash
 git clone https://github.com/your-username/soude.git
 cd soude
 ✨ Author
