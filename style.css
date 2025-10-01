@@ -99,6 +99,11 @@
     height: auto;
 }
 
+
+.item.active .soude {
+    animation: soudeActive .5s ease-in-out 1 forwards;
+}
+
 @media screen and (max-width: 768px) {
     .item .title {
         font-size: 6rem;
@@ -145,7 +150,6 @@
         font-size: 0.9rem;
     }
 }
-
 @keyframes soudeActive {
     from {
         transform: translate(-50%, 100%);
